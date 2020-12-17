@@ -1,0 +1,65 @@
+* {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+
+/*-----header-------*/
+.main-title{
+    font-size: 22px;
+}
+.header{
+    padding: 30px;
+    border-bottom: 1px solid #cccccc;
+}
+/*------content---------*/
+.content{
+    padding: 20px;
+}
+.generator-preview__title{
+    padding: 30px;
+
+}
+
+.generator-preview__image {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px auto;
+    min-width: 200px;
+    text-align: center;
+
+
+}
+.generator-preview__image a:hover{
+    opacity: 0.3;
+}
+
+/*--- footer----*/
+footer {
+    border-top: 1px solid #cccccc;
+}
+
+.footer{
+    margin-top: 30px;
+    padding-top: 20px;
+}
+.copyright {
+    padding-top: 10px;
+    text-align: right;
+}
+.github {
+    width: 100px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 30px;
+}
+.github a {
+    align-items: center;
+    display: inherit;
+}
+.github img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
