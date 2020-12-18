@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3512e383-20bc-4dd6-a6c6-0f4a6bdb467b" name="sweb_spb_romanov_test_1" url="http://77.222.62.180">
+        <fileTransfer host="77.222.62.180" port="21" rootFolder="/test1_detskiypsy_ru">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

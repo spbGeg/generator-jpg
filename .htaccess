@@ -1,0 +1,18 @@
+#rder deny,allow
+#deny from all
+# Разрешенные IP адреса
+#Allow from 213.170.90.230
+#llow from 77.222.62.31
+#Allow from 192.168.225.218
+
+AddDefaultCharset UTF-8
+
+
+#RewriteEngine on
+
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# otherwise forward it to index.php
+RewriteRule . index.php

@@ -5,6 +5,48 @@
 }
 
 
+/*----------index page----------*/
+
+.index-page{
+    background: #bbd0fd;
+}
+
+.index-page .content{
+    background-image:  url('../img/bg.png');
+    background-repeat: no-repeat;
+    height: 500px;
+    border: 1px solid #7b3131;
+    border-radius: 5px;
+}
+.index-page h1{
+    font-size: 22px;
+}
+
+.index-page .button{
+    background: #ff0001;
+    height: 30px;
+    width: 200px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 12px;
+    cursor:pointer;
+    -webkit-box-shadow: 16px 13px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 16px 13px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 16px 13px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.index-page .button:hover{
+    background: #a63031;
+}
+.index-page .button:active{
+    -webkit-box-shadow: 16px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 16px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 16px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.index-page a{
+    text-decoration: none;
+}
+
 /*-----header-------*/
 .main-title {
     font-size: 22px;

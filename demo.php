@@ -36,7 +36,7 @@ $count_size = count($allTypeSize);
 	</div>
 	<div class="content container ">
 
-		<h3 class="generator-preview__title">Кликните на картинку для демострации</h3>
+		<h3 class="generator-preview__title">Нажмите на картинку для демострации и генерации ее в разных размерах</h3>
 
 
 		<div class="row generator-preview">
@@ -175,28 +175,6 @@ $count_size = count($allTypeSize);
             }
             });
 
-
-        // var nameImage = $(this).children("img").attr("title");
-        // //generate first LargeImage
-        // var sizeImage = "mic";
-        // $.ajax({
-        //     url: 'generator.php',         /* Куда пойдет запрос */
-        //     method: 'get',             /* Метод передачи (post или get) */
-        //     dataType: 'html',          /* Тип данных в ответе (xml, json, script, html). */
-        //     data: {
-        //         name: nameImage,
-        //         size: sizeImage
-        //     },     /* Параметры передаваемые в запросе. */
-        //     success: function (data) {   /* функция которая будет выполнена после успешного запроса.  */
-        //         $("#largeImage").(data);            /* В переменной data содержится ответ от generator.php */
-        //     }
-        // });
-        //
-        //
-        // alert(name);
-        //$('#largeImage').attr('src',$(this).attr('src'));
-
-
         gallery.fadeIn();
 
         $('.close').click(function () {
@@ -214,18 +192,6 @@ $count_size = count($allTypeSize);
 
 </script>
 
-<script>
-    // var allTypeSize = new Array();
-    // var i = 0;
-    // allTypeSize[i]['size_type'] = "Это мой размер"
-    <!--    --><?//for($i = 0; $i < count($allTypeSize); $i++){?>
-    //
-    //    allTypeSize[i]['size_type'] = "<?//=$allTypeSize['size_type'];?>//";
-    //    allTypeSize[i]['width'] = "<?//=$allTypeSize['width'];?>//";
-    //    allTypeSize[i]['height'] = "<?//=$allTypeSize['height'];?>//";
-    //    i++;
-    //    <?//}?>
-    //     alert(allTypeSize);
-</script>
+
 </body>
 </html>
