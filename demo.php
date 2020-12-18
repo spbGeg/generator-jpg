@@ -1,9 +1,40 @@
 <?
 require_once('db/db_connect.php');
+
+//indentify device
+function isMobile()
+{
+
+    return preg_match("/(android|avantgo|blackberry|bolt|boost|cricket|docomo|fone|hiptop|mini|mobi|palm|phone|pie|tablet|up\.browser|up\.link|webos|wos)/i", $_SERVER["HTTP_USER_AGENT"]);
+}
+
+if (isMobile()) $device = "mobile";
+
+
+
 //connect to db take all type size
 //get all type size
 $allTypeSize = $stm->fetchAll();
+
+
+//delete img with size big for mobile device or size bic for desktop
+if ($device == 'mobile') {
+    for ($i = 0; $i < count($allTypeSize); $i++) {
+        if ($allTypeSize[$i]['size_type'] == 'big') unset($allTypeSize[$i]);
+    }
+    sort($allTypeSize);
+
+}else {
+    for ($i = 0; $i < count($allTypeSize); $i++) {
+        if ($allTypeSize[$i]['size_type'] == 'mic') unset($allTypeSize[$i]);
+    }
+    sort($allTypeSize);
+}
+
+//var_dump($allTypeSize);
 $count_size = count($allTypeSize);
+
+
 ?>
 <!doctype html>
 <html lang="ru">
@@ -37,7 +68,7 @@ $count_size = count($allTypeSize);
 	<div class="content container ">
 
 		<h3 class="generator-preview__title">Нажмите на картинку для демострации и генерации ее в разных размерах</h3>
-
+        <?// var_dump($allTypeSize) ?>
 
 		<div class="row generator-preview">
             <?
@@ -85,14 +116,14 @@ $count_size = count($allTypeSize);
 				<div id="panel">
 
 
-					<img id="largeImage" src="images/sample_a.jpg" alt="150x150"/>
+					<img id="largeImage" src="" alt="Выберите картинку с нужным размером"/>
 					<div id="description"></div>
 				</div>
 				<div id="thumbs">
                     <?
                     //add img == count type size
-                    for ($i = 0; $i < $count_size; $i++) {
-                        ?>
+                    for ($i = 0; $i < $count_size; $i++) { ?>
+
 						<img class="thumb__image" src=""
 						     alt="<?= $allTypeSize[$i]['width']; ?>x<?= $allTypeSize[$i]['height']; ?>" title="">
                     <? } ?>
@@ -116,7 +147,7 @@ $count_size = count($allTypeSize);
 
 			<div class="col-6 github">
 
-				<a href="#">
+				<a href="https://github.com/spbGeg/generator-jpg.git">
 					Github<img src="/img/github.png" alt="Github">
 				</a>
 
@@ -135,7 +166,7 @@ $count_size = count($allTypeSize);
     var gallery = $('.gallery');
     $('#thumbs').delegate('img', 'click', function () {
         $('#largeImage').attr('src', $(this).attr('src').replace('thumb', 'large'));
-         $('#description').html($(this).attr('alt'));
+        //$('#description').html($(this).attr('alt'));
     });
     //add descrition image
     $('#description').text($('#largeImage').attr('alt'));
@@ -150,7 +181,7 @@ $count_size = count($allTypeSize);
         var handleImageName = $(this).children("img").attr("title");
 
         //change src attr largeImage gallery
-        $("#largeImage").attr('src', srcLargeImage);
+        //$("#largeImage").attr('src', srcLargeImage);
 
         //create all size handle image
         $.ajax({
@@ -172,8 +203,11 @@ $count_size = count($allTypeSize);
                     $(this).attr('title', handleImageName);
 
                 });
+                //change src attr largeImage gallery
+	            //alert($('#thumbs').children(':first').attr('src'))
+                $("#largeImage").attr('src', $('#thumbs').children(':first').attr('src'));
             }
-            });
+        });
 
         gallery.fadeIn();
 
