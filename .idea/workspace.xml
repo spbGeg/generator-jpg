@@ -2,16 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1debf1b7-c332-463e-bd08-016299529c78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classResizeImage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classSimpleImage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jquery/js/jquery-3.4.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fotorama.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fotorama@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/fotorama/fotorama.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/fotorama/fotorama.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/fotorama/fotorama.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/fotorama/fotorama@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jquery/css/lightslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jquery/js/lightslider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery/5.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/generator.php" beforeDir="false" afterPath="$PROJECT_DIR$/generator.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-204">
-              <caret line="50" column="37" lean-forward="true" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+            <state relative-caret-position="272">
+              <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -41,30 +43,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classSimpleImage.php">
+        <entry file="file://$PROJECT_DIR$/demo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1156">
-              <caret line="73" column="2" selection-start-line="73" selection-start-column="2" selection-end-line="73" selection-end-column="2" />
+            <state relative-caret-position="278">
+              <caret line="137" column="8" selection-start-line="137" selection-start-column="8" selection-end-line="137" selection-end-column="8" />
+              <folding>
+                <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classResizeImage.php">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="17" column="31" selection-end-line="55" selection-end-column="1" />
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/jquery/js/jquery.lightbox.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="809">
-              <caret line="72" column="16" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
+            <state>
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/jquery/css/jquery.lightbox.min.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -76,21 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/jquery/js/jquery-3.4.1.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/bootstrap/css/bootstrap-grid.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="318">
+              <caret line="93" column="4" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -101,6 +103,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -111,8 +114,9 @@
       <find>size</find>
       <find>$type</find>
       <find>ret</find>
-      <find>echo</find>
       <find>gallery-item</find>
+      <find>echo</find>
+      <find>var_d</find>
     </findStrings>
     <replaceStrings>
       <replace>generator-preview__image</replace>
@@ -129,10 +133,11 @@
         <option value="$PROJECT_DIR$/classSimpleImage.php" />
         <option value="$PROJECT_DIR$/classResizeImage.php" />
         <option value="$PROJECT_DIR$/db/db_connect.php" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/test.php" />
+        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/generator.php" />
         <option value="$PROJECT_DIR$/demo.php" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -158,12 +163,18 @@
             <path>
               <item name="generator" type="b2602c69:ProjectViewProjectNode" />
               <item name="generator" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="generator" type="b2602c69:ProjectViewProjectNode" />
               <item name="generator" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="fotorama" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -181,13 +192,18 @@
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\locallwebserver\domains\generator\lib\jquery\js" />
-      <recent name="D:\locallwebserver\domains\generator\css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\locallwebserver\domains\generator\img" />
+      <recent name="D:\locallwebserver\domains\generator" />
       <recent name="D:\locallwebserver\domains\generator\lib\bootstrap\css" />
       <recent name="D:\locallwebserver\domains\generator\gallery" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\locallwebserver\domains\generator\img" />
+      <recent name="D:\locallwebserver\domains\generator\lib\fotorama" />
+      <recent name="D:\locallwebserver\domains\generator\lib\jquery\js" />
+      <recent name="D:\locallwebserver\domains\generator\lib\jquery\css" />
+      <recent name="D:\locallwebserver\domains\generator\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -213,18 +229,18 @@
       <option name="presentableId" value="Default" />
       <updated>1608103061131</updated>
       <workItem from="1608103062608" duration="14877000" />
-      <workItem from="1608126252963" duration="11779000" />
+      <workItem from="1608126252963" duration="42568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26656000" />
+    <option name="totallyTimeSpent" value="57445000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.110278375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17773019" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -236,8 +252,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.31561822" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31561822" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -265,18 +281,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/jquery/js/jquery-3.4.1.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/bootstrap/css/bootstrap-grid.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/db_connect.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -285,6 +291,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/jquery/js/jquery.lightbox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/jquery/css/jquery.lightbox.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/jquery/js/jquery-3.4.1.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -292,17 +313,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/jquery/js/lightslider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#li#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/jquery/css/lightslider.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/fotorama/fotorama.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/generator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="50" column="37" lean-forward="true" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+        <state relative-caret-position="272">
+          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="809">
-          <caret line="72" column="16" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
+        <state relative-caret-position="278">
+          <caret line="137" column="8" selection-start-line="137" selection-start-column="8" selection-end-line="137" selection-end-column="8" />
+          <folding>
+            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="93" column="4" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="4" />
         </state>
       </provider>
     </entry>

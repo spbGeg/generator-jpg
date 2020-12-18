@@ -38,21 +38,20 @@ function resizeImage($name, $size)
     }
 
 
-    $name = $name . '.jpg';
-    $filename = __DIR__ . '/gallery/' . $name;
-    $resize_image = __DIR__ . '/cache/resize_' . $w . 'x' . $h . '_' . $name;
+    $full_name = $name . '.jpg';
+    $filename = __DIR__ . '/gallery/' . $full_name;
+    $resize_image = __DIR__ . '/cache/resize_' . $w . 'x' . $h . '_' . $full_name;
 //check true existing file
     if (!file_exists($filename)) {
         exit('такого файла не существует');
     }
 
-//check converted file with given size
+//check file already converted with given size
 
     if (file_exists($resize_image)) {
         //return "<img  src='/cache/resize_150x150_". $resize_image .".jpg' alt=''>";
-        echo "<img  src='/cache/resize_150x150_". $name ."'  alt=''>";
+        echo "<img  src='/cache/resize_" .$w . "x" . $h."_" . $full_name ."'  alt='" . $w . "x" . $h ."' title='".$name."'>";
         exit;
-//exit('Файл уже преобразован и лежит в папке cache');
     }
 // size new image.
 
@@ -123,7 +122,7 @@ function resizeImage($name, $size)
 //return "<img  src='/cache/resize_150x150_". $resize_image .".jpg' alt=''>";
 
 
-    echo "<img  src='/cache/resize_150x150_". $name ."'  alt=''>";
+    echo "<img  src='/cache/resize_" .$w . "x" . $h."_" . $full_name ."'  alt='" . $w . "x" . $h ."' title='".$name."'>";
 }
 
 
