@@ -6,6 +6,23 @@ if (isset($_GET['name']) & isset($_GET['size'])) {
     //connect to db take all type size
     $allTypeSize = $stm->fetchAll();
 
+////address image
+//    $fileLocation = 'gallery/' . $name . ".jpg";
+//    header("Content-Type: image/jpg");
+////add header with cache
+//    header("Cache-Control: max-age=86400");
+//    header("Pragma: cache");
+//    header("Expires: " . date(DATE_RFC2822, time() + 86400));
+//
+//    $fileHeader = fopen($fileLocation, 'r', false);
+//    $response = "img/no-image.png";  //return default img if__ img not found from request
+//
+//    if ($fileHeader) {
+//        $response = stream_get_contents($fileHeader);
+//        fclose($fileHeader);
+//    }
+//
+//    exit($response);
 
 
     //start resizing
@@ -49,8 +66,9 @@ function resizeImage($name, $size)
 //check file already converted with given size
 
     if (file_exists($resize_image)) {
-        //return "<img  src='/cache/resize_150x150_". $resize_image .".jpg' alt=''>";
-        echo "<img  src='/cache/resize_" .$w . "x" . $h."_" . $full_name ."'  alt='" . $w . "x" . $h ."' title='".$name."'>";
+        fpassthru($resize_image);
+        //return "<img  src='/cache/resize_" .$w . "x" . $h."_" . $full_name ."'  alt='" . $w . "x" . $h ."' title='".$name."'>";
+        //echo "<img  src='/cache/resize_" .$w . "x" . $h."_" . $full_name ."'  alt='" . $w . "x" . $h ."' title='".$name."'>";
         exit;
     }
 // size new image.
@@ -119,10 +137,10 @@ function resizeImage($name, $size)
 
 
     imagedestroy($img);
-//return "<img  src='/cache/resize_150x150_". $resize_image .".jpg' alt=''>";
+//return "<img  src='/cache/resize_" .$w . "x" . $h."_" . $full_name ."'  alt='" . $w . "x" . $h ."' title='".$name."'>";
 
 
-    echo "<img  src='/cache/resize_" .$w . "x" . $h."_" . $full_name ."'  alt='" . $w . "x" . $h ."' title='".$name."'>";
+    //echo "<img  src='/cache/resize_" .$w . "x" . $h."_" . $full_name ."'  alt='" . $w . "x" . $h ."' title='".$name."'>";
 }
 
 

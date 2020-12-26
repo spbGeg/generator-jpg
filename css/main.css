@@ -90,8 +90,13 @@
     min-width: 200px;
     text-align: center;
     cursor: pointer;
+    height: 200px;
 
 
+}
+.generator-preview__image img{
+    width: 150px;
+    height: auto;
 }
 
 .generator-preview__image a:hover {

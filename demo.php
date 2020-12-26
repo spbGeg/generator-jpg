@@ -105,25 +105,10 @@ $count_size = count($allTypeSize);
 			<!--add all preview image -->
             <? foreach ($arrImage as $previewImage) { ?>
 				<div id="preview_image_<?= $previewImage ?>" class="generator-preview__image col-lg-2 col-md-3 col-6">
-
+					<img src="test.php?name=<?=$previewImage?>&size=mic" title="<?=$previewImage?>">
 				</div>
 
-				<script>
-                    var nameImage = "<?=$previewImage?>";
-                    var sizeImage = "mic";
-                    $.ajax({
-                        url: 'generator.php',         /* Куда пойдет запрос */
-                        method: 'get',             /* Метод передачи (post или get) */
-                        dataType: 'html',          /* Тип данных в ответе (xml, json, script, html). */
-                        data: {
-                            name: nameImage,
-                            size: sizeImage
-                        },     /* Параметры передаваемые в запросе. */
-                        success: function (data) {   /* функция которая будет выполнена после успешного запроса.  */
-                            $("#preview_image_<?=$previewImage?>").html(data);            /* В переменной data содержится ответ от generator.php */
-                        }
-                    });
-				</script>
+
 
             <? } ?>
 
@@ -143,7 +128,7 @@ $count_size = count($allTypeSize);
                     //add img == count type size
                     for ($i = 0; $i < $count_size; $i++) { ?>
 
-						<img class="thumb__image" src="img/loading.gif"
+						<img class="thumb__image" src="img/no_image.png"
 						     alt="<?= $allTypeSize[$i]['width']; ?>x<?= $allTypeSize[$i]['height']; ?>" title="">
                     <? } ?>
 				</div>

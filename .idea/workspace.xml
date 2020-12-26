@@ -2,20 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1debf1b7-c332-463e-bd08-016299529c78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/download_img.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_150x150_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_150x150_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_150x150_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_150x150_20201226090734909.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_150x150_20201226092028343.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_150x150_20201226095901295.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_150x150_20201226102840714.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_150x150_20201226102932334.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_150x150_20201226103302814.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_150x150_20201226103425264.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_150x150_20201226103440359.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_150x150_20201226103454460.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_150x150_20201226103517544.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_150x150_20201226103545729.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_150x150_20201226103602901.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_150x150_20201226103612485.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_150x150_20201226103619114.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_150x150_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_150x150_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_150x150_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_150x150_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_150x150_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_150x150_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_150x150_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_320x240_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_320x240_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_320x240_20201226090734909.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_320x240_20201226102932334.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_320x240_20201226103517544.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_320x240_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_320x240_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_640x480_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_640x480_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_640x480_20201226090734909.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_640x480_20201226102932334.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_640x480_20201226103517544.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_640x480_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_640x480_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_800x600_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_800x600_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_800x600_20201226090734909.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_800x600_20201226102932334.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_800x600_20201226103517544.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_800x600_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_800x600_9.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator.php" beforeDir="false" afterPath="$PROJECT_DIR$/generator.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,98 +60,72 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="249">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/generator.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-102">
-                  <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/demo.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="279">
-                  <caret line="164" column="59" lean-forward="true" selection-start-line="164" selection-start-column="59" selection-end-line="164" selection-end-column="59" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/.gitignore">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="5" selection-start-column="5" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="603">
-                  <caret line="54" column="25" lean-forward="true" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/.htaccess">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/main.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" selection-start-line="9" selection-end-line="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/lib/jquery/js/jquery.lightbox.js">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/lib/jquery/css/jquery.lightbox.min.css">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/main.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="185">
-                  <caret line="167" column="17" selection-start-line="167" selection-start-column="17" selection-end-line="167" selection-end-column="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/download_img.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="264">
-                  <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="249">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/generator.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="22" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="24" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="107" column="34" lean-forward="true" selection-start-line="107" selection-start-column="30" selection-end-line="107" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="603">
+              <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/jquery/js/jquery.lightbox.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/jquery/css/jquery.lightbox.min.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="89" column="21" lean-forward="true" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -136,6 +146,8 @@
       <find>echo</find>
       <find>var_d</find>
       <find>thumbImage</find>
+      <find>generator-preview</find>
+      <find>Метод передачи</find>
     </findStrings>
     <replaceStrings>
       <replace>generator-preview__image</replace>
@@ -156,24 +168,23 @@
         <option value="$PROJECT_DIR$/SimpleImage.php" />
         <option value="$PROJECT_DIR$/classSimpleImage.php" />
         <option value="$PROJECT_DIR$/classResizeImage.php" />
-        <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/generator.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/db/db_connect.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/download_img.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/demo.php" />
+        <option value="$PROJECT_DIR$/generator.php" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1066" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1920" />
+    <option name="width" value="960" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -192,12 +203,12 @@
             <path>
               <item name="generator" type="b2602c69:ProjectViewProjectNode" />
               <item name="generator" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="generator" type="b2602c69:ProjectViewProjectNode" />
               <item name="generator" type="462c0819:PsiDirectoryNode" />
-              <item name="gallery" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -253,12 +264,12 @@
       <updated>1608103061131</updated>
       <workItem from="1608103062608" duration="14877000" />
       <workItem from="1608126252963" duration="56473000" />
-      <workItem from="1608961949889" duration="5850000" />
+      <workItem from="1608961949889" duration="10998000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77200000" />
+    <option name="totallyTimeSpent" value="82348000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -270,8 +281,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17987151" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -287,7 +297,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32993197" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -384,7 +394,6 @@
     <entry file="file://$PROJECT_DIR$/lib/jquery/js/jquery-3.4.1.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.php" />
     <entry file="file://$PROJECT_DIR$/lib/jquery/js/lightslider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -440,17 +449,10 @@
     <entry file="file://$PROJECT_DIR$/lib/jquery/css/jquery.lightbox.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/generator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="603">
-          <caret line="54" column="25" lean-forward="true" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+          <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -468,17 +470,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cache/resize_150x150_20201226103425264.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/resize_150x150_20201226103302814.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/resize_150x150_20201226102932334.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="167" column="17" selection-start-line="167" selection-start-column="17" selection-end-line="167" selection-end-column="17" />
+        <state relative-caret-position="235">
+          <caret line="89" column="21" lean-forward="true" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="164" column="59" lean-forward="true" selection-start-line="164" selection-start-column="59" selection-end-line="164" selection-end-column="59" />
+        <state relative-caret-position="368">
+          <caret line="107" column="34" lean-forward="true" selection-start-line="107" selection-start-column="30" selection-end-line="107" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="22" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="24" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
