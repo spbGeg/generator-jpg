@@ -4,13 +4,32 @@ require_once('db/db_connect.php');
 //indentify device
 function isMobile()
 {
-
     return preg_match("/(android|avantgo|blackberry|bolt|boost|cricket|docomo|fone|hiptop|mini|mobi|palm|phone|pie|tablet|up\.browser|up\.link|webos|wos)/i", $_SERVER["HTTP_USER_AGENT"]);
 }
 
 if (isMobile()) $device = "mobile";
 
+//get download file status
+if (isset($_GET['file-download'])) {
+    $file_download = $_GET['file-download'];
 
+    switch ($file_download) {
+        case "success":
+            $file_download = "Файл загружен";
+            break;
+        case "too-big-size":
+            $file_download = "Превышен допустимый размер файла";;
+            break;
+        case "format-no-valid":
+            $file_download = "Формат изображения не jpg! Загрузите нужный формат";;
+            break;
+        default:
+            $file_download = "Не удалось загрузить изображение";
+            break;
+
+    }
+
+}
 
 //connect to db take all type size
 //get all type size
@@ -24,7 +43,7 @@ if ($device == 'mobile') {
     }
     sort($allTypeSize);
 
-}else {
+} else {
     for ($i = 0; $i < count($allTypeSize); $i++) {
         if ($allTypeSize[$i]['size_type'] == 'mic') unset($allTypeSize[$i]);
     }
@@ -68,7 +87,7 @@ $count_size = count($allTypeSize);
 	<div class="content container ">
 
 		<h3 class="generator-preview__title">Нажмите на картинку для демострации и генерации ее в разных размерах</h3>
-        <?// var_dump($allTypeSize) ?>
+        <? // var_dump($allTypeSize) ?>
 
 		<div class="row generator-preview">
             <?
@@ -132,6 +151,23 @@ $count_size = count($allTypeSize);
 
 			</div>
 
+		</div>
+
+
+		<div class="row add-img">
+			<div class="col-12 add-img__form">
+				<span class="add-img__title">Размер изображения не должен превышать 1Mb, размеры по ширине не более 1600px, по высоте не более 1600px.</span>
+				<form name="upload" action="download_img.php" method="POST" ENCTYPE="multipart/form-data">
+					<div class="form-group">
+						<span>Выберите файл для загрузки:</span>
+						<span class="alert" <?if($file_download == "success")echo"style='color: #1ab918'";?>><?=$file_download?></span>
+
+						<input type="file" name="userfile">
+						<input type="submit" name="upload" value="Загрузить">
+					</div>
+
+				</form>
+			</div>
 		</div>
 	</div>
 
@@ -204,7 +240,7 @@ $count_size = count($allTypeSize);
 
                 });
                 //change src attr largeImage gallery
-	            //alert($('#thumbs').children(':first').attr('src'))
+                //alert($('#thumbs').children(':first').attr('src'))
                 $("#largeImage").attr('src', $('#thumbs').children(':first').attr('src'));
             }
         });

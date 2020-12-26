@@ -164,6 +164,8 @@ footer {
 #thumbs {
     padding-top: 10px;
     overflow: hidden;
+    position: relative;
+    z-index: 100;
 
 }
 
@@ -198,5 +200,27 @@ footer {
     height: 100%;
 }
 
+/*-----download file------*/
+
+.add-img{
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    margin-top: 30px;
+
+
+}
+.add-img span{
+    display: block;
+}
+.alert{
+    color: #ff0000;
+}
+
+.add-img input{
+    display: block;
+    cursor: pointer;
+    margin:10px;
+
+}
 
 
