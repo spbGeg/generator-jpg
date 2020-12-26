@@ -116,7 +116,7 @@ $count_size = count($allTypeSize);
 				<div id="panel">
 
 
-					<img id="largeImage" src="" alt="Выберите картинку с нужным размером"/>
+					<img id="largeImage" src="img/loading.gif" alt="Выберите картинку с нужным размером"/>
 					<div id="description"></div>
 				</div>
 				<div id="thumbs">
@@ -124,7 +124,7 @@ $count_size = count($allTypeSize);
                     //add img == count type size
                     for ($i = 0; $i < $count_size; $i++) { ?>
 
-						<img class="thumb__image" src=""
+						<img class="thumb__image" src="img/loading.gif"
 						     alt="<?= $allTypeSize[$i]['width']; ?>x<?= $allTypeSize[$i]['height']; ?>" title="">
                     <? } ?>
 				</div>

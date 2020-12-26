@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1debf1b7-c332-463e-bd08-016299529c78" name="Default Changelist" comment="" />
+    <list default="true" id="1debf1b7-c332-463e-bd08-016299529c78" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_150x150_mand-holding-cup_1258-340.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_320x240_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_320x240_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_320x240_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_320x240_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_320x240_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_320x240_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_320x240_mand-holding-cup_1258-340.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_640x480_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_640x480_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_640x480_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_640x480_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_640x480_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_640x480_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_640x480_mand-holding-cup_1258-340.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_800x600_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_800x600_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_800x600_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_800x600_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_800x600_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_800x600_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/resize_800x600_mand-holding-cup_1258-340.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/mand-holding-cup_1258-340.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
+            <state relative-caret-position="255">
+              <caret line="119" column="48" lean-forward="true" selection-start-line="119" selection-start-column="48" selection-end-line="119" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -37,11 +66,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="84" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
+            <state relative-caret-position="-136">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#1088#1094#0#HTML" expanded="true" />
+                <element signature="e#1113#1119#0#HTML" expanded="true" />
+                <element signature="e#1314#1321#0#HTML" expanded="true" />
+                <element signature="e#1528#1535#0#HTML" expanded="true" />
+                <element signature="e#1771#1778#0#HTML" expanded="true" />
+                <element signature="e#2143#2150#0#HTML" expanded="true" />
+                <element signature="e#2206#2213#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,8 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+            <state relative-caret-position="352">
+              <caret line="49" column="33" lean-forward="true" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -134,18 +172,19 @@
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/generator.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/db/db_connect.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/demo.php" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1920" />
-    <option name="width" value="960" />
-    <option name="height" value="1080" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1696" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -160,6 +199,11 @@
               <item name="generator" type="b2602c69:ProjectViewProjectNode" />
               <item name="generator" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -169,26 +213,26 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bazarov" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\locallwebserver\domains\generator\lib\bootstrap\css" />
       <recent name="D:\locallwebserver\domains\generator\tmp" />
       <recent name="D:\locallwebserver\domains\generator\img" />
       <recent name="D:\locallwebserver\domains\generator" />
-      <recent name="D:\locallwebserver\domains\generator\lib\bootstrap\css" />
       <recent name="D:\locallwebserver\domains\generator\gallery" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\locallwebserver\domains\generator\lib\bootstrap\css" />
       <recent name="D:\locallwebserver\domains\generator\img" />
       <recent name="D:\locallwebserver\domains\generator\lib\fotorama" />
       <recent name="D:\locallwebserver\domains\generator\lib\jquery\js" />
       <recent name="D:\locallwebserver\domains\generator\lib\jquery\css" />
-      <recent name="D:\locallwebserver\domains\generator\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -214,15 +258,24 @@
       <option name="presentableId" value="Default" />
       <updated>1608103061131</updated>
       <workItem from="1608103062608" duration="14877000" />
-      <workItem from="1608126252963" duration="51556000" />
+      <workItem from="1608126252963" duration="56473000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66433000" />
+    <option name="totallyTimeSpent" value="71350000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17773019" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -238,7 +291,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.31561822" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32993197" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -359,20 +412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="84" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/db_connect.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -387,10 +426,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/bootstrap/css/bootstrap-grid.css.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret column="4823" lean-forward="true" selection-start-column="4823" selection-end-column="4823" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
+        <state relative-caret-position="255">
+          <caret line="119" column="48" lean-forward="true" selection-start-line="119" selection-start-column="48" selection-end-line="119" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="49" column="33" lean-forward="true" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#1088#1094#0#HTML" expanded="true" />
+            <element signature="e#1113#1119#0#HTML" expanded="true" />
+            <element signature="e#1314#1321#0#HTML" expanded="true" />
+            <element signature="e#1528#1535#0#HTML" expanded="true" />
+            <element signature="e#1771#1778#0#HTML" expanded="true" />
+            <element signature="e#2143#2150#0#HTML" expanded="true" />
+            <element signature="e#2206#2213#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

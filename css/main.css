@@ -12,9 +12,8 @@
 }
 
 .index-page .content{
-    background-image:  url('../img/bg.png');
-    background-repeat: no-repeat;
-    height: 500px;
+
+    min-height: 500px;
     border: 1px solid #7b3131;
     border-radius: 5px;
 }
@@ -46,6 +45,23 @@
 .index-page a{
     text-decoration: none;
 }
+.content .bg-img {
+    /*background-image: url('../img/bg.png');*/
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 500px;
+    width: 300px;
+}
+.text{
+    z-index: 10;
+    position: relative;
+}
+
+
+.index-page h3{
+    font-size: 20px;
+}
+/*-----------Demo Page -------*/
 
 /*-----header-------*/
 .main-title {
